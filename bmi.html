@@ -6,10 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>計算BMI</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        .title {}
+
+        form {
+            width: 80%;
+            margin: 24px auto;
+        }
+
+        @media screen and(max-width:768px) {
+            form {
+                width: 100%;
+            }
+
+        }
+
+        /*form 表單隨螢幕縮放大小更改尺寸*/
+    </style>
 </head>
 
 <body>
-    <h1>計算BMI</h1>
+    <div class="title">計算BMI</div>
     <form action="">
         <label for="name">姓名</label>
         <input type="text" name="name" id="name"><br>
